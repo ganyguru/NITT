@@ -20,7 +20,7 @@ a {
   margin: 0 auto;
   list-style-type: none;
   padding: 2% 2.75% 4%;
-  border-top: 15px solid #6006FF;
+  border-top: 15px solid blue;
   margin-bottom: 1.75rem;
   border-radius: 5px;
   -webkit-transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -74,7 +74,7 @@ h2 {
   font-size: 1.6em;
   margin-bottom: .75em;
   margin-left: 5%;
-  color: #6006FF;
+  color: blue;
 }
 .summary{
   color: #868686;
@@ -89,7 +89,7 @@ h2 {
 }
 
 .footnote {
-  color: #6006FF;
+  color: blue;
   font-weight: 500;
   letter-spacing: 1px;
 }
