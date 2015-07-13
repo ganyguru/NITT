@@ -1,0 +1,443 @@
+.wrapper{
+top:0;
+	left:0;
+	width:100%;
+	
+	position: absolute;	
+}
+
+.arrow-n,
+.arrow-e,
+.arrow-s,
+.arrow-w {
+  /*
+   * In Internet Explorer, The"border-style: dashed" will never be
+   * rendered unless "(width * 5) >= border-width" is true.
+   * Since "width" is set to "0", the "dashed-border" remains
+   * invisible to the user, which renders the border just like how
+   * "border-color: transparent" renders.
+   */
+  border-style: dashed;
+  border-color: transparent;
+  border-width: 0.53em;
+  display: -moz-inline-box;
+  display: inline-block;
+  /* Use font-size to control the size of the arrow. */
+  font-size: 100px;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 0;
+}
+
+.arrow-n {
+  border-bottom-width: 1em;
+  border-bottom-style: solid;
+  border-bottom-color: #666;
+  bottom: 0.25em;
+}
+
+.arrow-e {
+  border-left-width: 1em;
+  border-left-style: solid;
+  border-left-color: #666;
+  left: 0.25em;
+}
+.ctemp
+{
+	min-height: 600px;
+}
+@font-face
+{
+ font-family: tahom;
+    src: url('/NITT/img/Tahoma.ttf');
+}
+@font-face
+{
+ font-family: ali;
+    src: url('/NITT/img/Signika/Signika-Regular.ttf');
+}
+
+.ease
+{
+
+	-webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.htitle
+{
+
+	
+	top:0;
+	left:0;
+	width:100%;
+	height:355px;
+	background:#2D2D2F;
+	
+	
+}
+.hmenu
+{
+	font-family: Arial;	
+	line-height: 70px;
+	left:0;
+	width:100%;
+	height:70px;
+	background:#2D2D2F;
+
+}
+
+.footer
+{
+
+	position: relative;
+	
+	text-align: center;
+	width:100%;
+	height:48px;
+	background:#F0F0f0;
+}
+.footer ul
+{
+	
+	display: inline-block;
+	list-style-type: none;
+}
+.footer ul li
+{
+	display: inline-block;
+	list-style-type: none;
+}
+.footer img
+{
+
+	top:30px;
+	height:20px;
+	width:20px;
+	margin-left: 25px;
+}
+.pfooter
+{
+	position: relative;
+	
+	
+	width:100%;
+	height:202px;
+	background:#2D2D2F;
+}
+.eve
+{
+	width:100%;
+	height:430px;
+	background : url("/NITT/img/prag.jpg");
+	background-size: cover;
+	z-index: 1;
+}
+.evedes
+{
+	padding:5px;
+	color:black;
+	line-height: 30px;
+	float: right;
+	position: relative;
+	
+	top:260px;
+	width:35%;
+
+	background:#E6EBEF;
+	height: 110px;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+.evedes:hover
+{
+	opacity: 0.4;
+}
+.content
+{
+	left:0;
+	width:100%;
+	position: relative;
+}
+.side {
+	margin-top:20px;
+	padding: 40px;
+font-weight: bold;
+float: left;
+width: 230px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: #808080;
+overflow: hidden;
+border-right: solid #000000;
+border-width: 1px;
+}
+.scontent
+{
+	padding: 40px;
+	min-height: 700px;
+margin-left: 280px;
+margin-top: 0;
+
+
+}
+.din
+{
+	display: inline-block;
+	list-style-type: none;
+	vertical-align: top;
+	padding: 2px;
+	word-wrap:break-word;	
+}
+.date
+{
+	top:0;
+	left:0;
+	display: inline-block;
+	
+	width:60px;
+	height:50px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background:white;
+	
+	color:#A66900;
+}
+.date div
+{
+	width:100%;
+	height: 50%;
+	left:0;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #D8D8D8;
+	color: #515151;
+}
+.heading
+{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	
+}
+.normal
+{
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.link
+{
+		-webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+	cursor: pointer;
+	color:#2D2D2F;
+}
+.link:hover
+{
+	color:#000;
+	text-decoration: underline;
+}
+.orange
+{
+	color:#A66900;
+}
+.tbar
+{
+	
+	font-family: tahom;	
+	line-height: 30px;
+	left:0;
+	width:100%;
+	height:30px;
+	background:#2D2D2F;
+	color:#fff;
+	font-size: 13px;
+	
+}
+.scroll
+{
+	overflow: scroll;
+	overflow-x:hidden;
+}
+.mcon
+{
+	font: normal normal normal 26px/1.2em "Arial Black", Gadget, sans-serif;
+	padding-top:30px;
+	padding-bottom: 30px;
+	width:99%;
+	display:block;
+	position:relative;
+	
+}
+.scon
+{
+	font: normal normal normal 26px/1.2em "Arial Black", Gadget, sans-serif;
+	padding-top:30px;
+	left:0;
+	padding-bottom: 30px;
+	width:100%;
+	background-color: #2D2D2F;
+	display:block;
+	position:relative;
+	
+}
+
+.vision
+{
+
+	padding-top: 10px;
+	position:relative;
+	display: inline-block;
+	text-align: left;
+	background:#FFB400;
+	color:#fff;
+	width:300px;
+	
+}
+.news
+{
+	width:95%;
+}
+.gbar
+{
+	font-family: ali;
+	font-size:15px;
+	font-weight: bold;
+}
+.ibar
+{
+	font-size:13px;
+	line-height: 14px;
+	font-family: ali;
+}
+.bborder
+{
+	border-top:3px solid #2D2D2F;
+}
+.seading
+{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	cursor: pointer;
+}
+.seading:hover
+{
+	color:#FFB400;
+}
+.bbar
+{
+	vertical-align: top;
+	position:relative;
+	display: inline-block;
+	
+	padding:10px;
+	
+	min-width: 320px;
+}
+.mission
+{
+
+	padding-top: 10px;
+
+	position:relative;
+	display: inline-block;
+	text-align: center;
+	background:#A66900;
+	color:#fff;
+	width:300px;
+	
+}
+
+.mission p
+{
+
+	padding:5px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color:#000;
+}
+.vision hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; }
+.vision p
+{
+
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color:#000;
+}
+.bar
+{
+	vertical-align: top;
+	position:relative;
+	display: inline-block;
+	width:310px;
+	padding:10px;
+	text-align: center;
+}
+.vision p
+{
+	padding:5px;
+}
+.tbar a
+{
+	color:#fff;
+	text-decoration: none;
+}
+.tbar a:hover
+{
+	color:#FFB400;
+}
+.hmenu ul
+{
+	margin-top: 0px;
+	vertical-align: top;
+	
+
+	text-align: center;
+	width:90%;
+	list-style-type: none;
+	margin-left: 0;
+}
+.hmenu	li
+{
+	cursor: pointer;
+font-size: 12px;
+color: #fff;
+text-transform: uppercase;
+
+	width:10%;
+	height: 100%;
+	display: inline-block;
+
+}
+.hmenu li:hover
+{
+	color:#FFB400;
+}
+.active
+{
+	color: #FFB400;
+}
+.htitle img
+{
+	vertical-align: middle;
+	width:100%;
+}

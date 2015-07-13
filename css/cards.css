@@ -1,0 +1,67 @@
+    section {
+      padding: 10px;
+/*      background-color: #f9f9f9;*/
+      font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+
+    }
+    
+    section > * {
+      margin: 10px
+    }
+    
+    /* Button */
+    .button {
+      display: inline-block;
+      position: relative;
+      width: 120px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      color: #646464;
+    }
+        
+    .button.blue {
+      background-color: #4285f4;
+      color: #fff;
+    }
+    
+    /* Card*/
+    .card {
+      position: relative;
+      display: inline-block;
+      width: 300px;
+      height: 240px;
+      vertical-align: top;
+      background-color: #fff;
+      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    }
+    
+    .card {
+      box-sizing: border-box;
+      padding: 16px;
+    }
+    
+    .card > .content {
+      height: 170px;
+      font-size: 0.9em;
+    }
+    
+    .card > .content > .title {
+      font-size: 1.3em;
+    }
+    
+    .card > .button {
+      width: 90px;
+      float: right;
+    }
+    
+    .card.image {
+      background: url(http://lorempixel.com/300/240/nature/);
+      color: #fff;
+    }
+
+    .label-blue {
+      color: #4285f4; 
+    }

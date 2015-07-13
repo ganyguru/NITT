@@ -1,0 +1,33 @@
+function fadeIn(id,val){
+// ID of the element to fade, Fade value[min value is 0]
+  if(isNaN(val)){ val = 0;}
+  document.getElementById(id).style.opacity='0.'+val;
+  //For IE
+  document.getElementById(id).style.filter='alpha(opacity='+val+'0)';
+  if(val<9){
+    val++;
+    setTimeout('fadeIn("'+id+'",'+val+')',90);
+  }else{return;}
+
+}
+
+	
+	
+
+function showp(sd)
+{
+document.getElementById("sld").src = "img/s" + sd + ".jpg" ;
+document.getElementById("cb1").style.background="#000000";
+document.getElementById("cb1").style.cursor="pointer";
+document.getElementById("cb2").style.background="#000000";
+document.getElementById("cb2").style.cursor="pointer";
+document.getElementById("cb3").style.background="#000000";
+document.getElementById("cb3").style.cursor="pointer";
+document.getElementById("cb4").style.background="#000000";
+document.getElementById("cb4").style.cursor="pointer";
+document.getElementById("cb"+sd).style.background="#888888";
+document.getElementById("cb"+sd).style.cursor="default";
+fadeIn('sld',0);
+
+}
+
