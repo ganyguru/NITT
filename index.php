@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="script/jquery.js" ></script>
 	<script type="text/javascript" src="script/bootstrap.min.js" ></script>
 	<link rel="stylesheet" href="css/responsivemobilemenu.css" type="text/css">
-
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="script/responsivemobilemenu.js"></script>
 </head>
 <body>
@@ -76,39 +76,151 @@
 
 			</div>
 			<div class="scon">
+			<div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                  <nav class="pull dept">
+                    Sample content <br>
+                    for<br>
+                    the Department
+                    
+                  </nav>
 
-				<div class="bar">
-					<p class="heading orange">NOTICES/DOWNLOADS </p><hr>
-					<p class="normal link ">UG/PG : Answer scripts revaluation and Course registration </p><hr>
-					<p class="normal link ">UG/PG : Answer scripts revaluation and Course registration </p><hr>
-					<p class="normal link ">UG/PG : Answer scripts revaluation and Course registration </p><hr>
-					<p class="normal link ">UG/PG : Answer scripts revaluation and Course registration </p><hr>
-					<p class="seading ease">More Notices ></p>
+                  <nav class="pull evnt">
+                    Sample content <br>
+                    for<br>
+                    the Events
+                    
+                  </nav>
+
+                  <nav class="pull notic">
+                    Sample content <br>
+                    for<br>
+                    the Notice
+                    
+                  </nav>
+
+                  <nav class="pull wel">
+                    Sample content <br>
+                    for<br>
+                    the Welcome
+                    
+                  </nav>
+                </div>
+             </div>
+			<div class="row">
+			<h2>Quicklinks</h2>
+			</div>
+			<div class="row">
+
+				<div class="col-md-3">
+				<div class="icon ico1 ease">
+				<i class="fa fa-university ico"></i><br>
+				<p>Departments</p>
+				</div>	
+				</div>
+
+				<div class="col-md-3">
+				<div class="icon ease ico2">
+				<i class="fa fa-file-text-o ico"></i><br>
+				<p>Notices and Downloads</p>
+				</div>	
 
 				</div>
 
-				<div class="bar">
-				<p class="heading orange">EVENTS </p><hr>
-					<div class="din normal  "> <div class="date"><div>JAN.</div>15.</div>  <span class="link" style="margin-left:10px;"> MDP on Knowledge Management & Innovation, 29-31 January 2015 > </span></div><hr>
-					<div class="din normal  "> <div class="date"><div>JAN.</div>15.</div>  <span class="link" style="margin-left:10px;"> MDP on Knowledge Management & Innovation, 29-31 January 2015 > </span></div><hr>
-					<div class="din normal  "> <div class="date"><div>JAN.</div>15.</div>  <span class="link" style="margin-left:10px;"> MDP on Knowledge Management & Innovation, 29-31 January 2015 > </span></div><hr>
-					<p class="seading ease">More Events ></p>
-
+				<div class="col-md-3">
+				<div class="icon ease ico3">
+				
+				<i class="fa fa-calendar ico"></i><br>
+				<p>Events</p>
+				</div>	
+				</div>
+				
+				<div class="col-md-3">
+				<div class="icon ease ico4">
+				
+				<i class="fa fa-user ico"></i><br>
+				<p>Welcome</p>
+				</div>	
 				</div>
 
-				<div class="bar">
-				<p class="heading orange">WELCOME </p><hr>
-					<p class="normal link ">COMPUTER CENTER <span style="float:right">></span></p><hr>
-					<p class="normal link ">TEQIP II <span style="float:right">></span></p><hr>
-					<p class="normal link ">SPORTS CENTER <span style="float:right">></span></p><hr>
-					<p class="normal link ">LIBRARY <span style="float:right">></span></p><hr>	
-				</div>
+				
+
+			
+			<div class="col-md-3">
+				<div class="icon">
+				</div>	
 
 			</div>
-			<div class="pfooter"
-		</center>
-
+			</div>
+			
 	</div>
+	<div class="pfooter">
+		
 
+		<div class="fcontent">
+		</div>
+	</div>
+<script type="text/javascript">
+	$(window).load(function() {
+	var temp=0;
+	$('.ico1').click(function() {
+		if(temp==0)
+		{
+		$('.dept').slideToggle();
+		temp=1;
+		}
+		else
+		{
+			$('.pull').hide();
+			$('.dept').slideToggle();
+		}
+	});
+
+	$('.ico3').click(function() {
+		if(temp==0)
+		{
+		$('.evnt').slideToggle();
+		temp=1;
+		}
+		else
+		{
+			$('.pull').hide();
+			$('.evnt').slideToggle();
+		}
+	});
+
+	$('.ico2').click(function() {
+		if(temp==0)
+		{
+		$('.notic').slideToggle();
+		temp=1;
+		}
+		else
+		{
+			$('.pull').hide();
+			$('.notic').slideToggle();
+		}
+	});
+
+	$('.ico4').click(function() {
+		if(temp==0)
+		{
+		$('.wel').slideToggle();
+		temp=1;
+		}
+		else
+		{
+			$('.pull').hide();
+			$('.wel').slideToggle();
+		}
+	});
+
+	
+	$('.clos').click(function() {
+		$('.pull').slideToggle();
+		temp=0;
+	});
+});
+</script>
 </body>
 </html>

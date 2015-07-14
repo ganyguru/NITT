@@ -1,3 +1,7 @@
+body,html,.wrapper
+{
+	overflow-x:hidden;
+}
 .wrapper{
 top:0;
 	left:0;
@@ -127,6 +131,12 @@ top:0;
 	width:100%;
 	height:202px;
 	background:#2D2D2F;
+}
+.fcontent
+{
+	width: 80%;
+	padding-top: 10px;
+	border-top: 1px solid #e6e6e6;
 }
 .eve
 {
@@ -273,6 +283,20 @@ margin-top: 0;
 	overflow: scroll;
 	overflow-x:hidden;
 }
+.pull
+{
+	font-size: 17px;
+	line-height: 19px;
+	color: #fff;
+	display: none;
+}
+.clos
+{
+	position: absolute;
+	color: #fff !important;
+	opacity: 0.7;
+	cursor: pointer;
+}
 .mcon
 {
 	font: normal normal normal 26px/1.2em "Arial Black", Gadget, sans-serif;
@@ -295,7 +319,17 @@ margin-top: 0;
 	position:relative;
 	
 }
-
+.scon
+{
+	color:#F19A00;
+	font-family: ali;
+}
+.scon h2
+{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+}
 .vision
 {
 
@@ -391,6 +425,44 @@ margin-top: 0;
 	width:310px;
 	padding:10px;
 	text-align: center;
+
+}
+.ease
+{
+
+	-webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.icon
+{
+	box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+	width:180px;
+	font-size: 55px;
+	padding:10px;
+	position:relative;
+	border-top: 10px solid #2D2D2F;
+	color:#F19A00 !important;
+	z-index: 999;
+	cursor: pointer;
+}
+.ico
+{
+	padding-bottom: 7px;
+}
+.icon p
+{
+	font-family: ali;
+	font-size: 20px;
+	line-height: 22px;
+}
+.icon:hover
+{
+	
+	border-top: 10px solid #F19A00;
 }
 .vision p
 {
